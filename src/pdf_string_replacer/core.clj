@@ -63,7 +63,9 @@
   nil)
 
 (defn -main
-  [input-pdf output-pdf]
+  [input-pdf output-pdf old-string new-string]
+  (alter-var-root #'search-string (constantly old-string))
+  (alter-var-root #'replace-string (constantly new-string))
   (let
    [pdf  (pdfboxing.common/obtain-document input-pdf)]
     (Replace-string-in-pdf pdf)
