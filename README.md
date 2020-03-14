@@ -1,6 +1,5 @@
 # pdf-string-replacer
-
-FIXME: description
+A simple PDF string replacement program written in Clojure
 
 ## Installation
 
