@@ -21,7 +21,7 @@ FIXME: listing of options this app accepts.
 
 ### Bugs
 
-...
+Please just use JAVA, clojure is very bad PL.
 
 ### Any Other Sections
 ### That You Think
